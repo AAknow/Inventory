@@ -1,0 +1,23 @@
+.item-add {
+    height: 200px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.item {
+    width: 400px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.add {
+    width: 75px;
+    height: 30px;
+}
+
+.inventory {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+
