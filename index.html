@@ -10,10 +10,34 @@
 
     <div class="item-add">
         <div class="item">
-            <div class="name">Name</div>
-            <div class="type">Type</div>
-            <div class="quantity">Quantity</div>
-            <div class="weight">Weight</div>
+            <form action="">
+
+                <div>
+                    <label for="item-name">Item Name:</label>
+                    <input type="text" id="item-name" name="item-name">
+                </div>
+
+                <div>
+                    <label for="type">Item Type:</label>
+                    <select name="type" id="type">
+                        <option value="weapon">Weapon</option>
+                        <option value="armor">Armor</option>
+                        <option value="misc">Misc</option>
+                        <option value="food">Food</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="weight">Weight</label>
+                    <input type="number" id="weight" name="weight" min="0" max="">
+                </div>
+
+                <div>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="0" max="">
+                </div>
+
+            </form>
         </div>
         <button class="add">Submit</button>
     </div>
