@@ -29,5 +29,12 @@
     height: 600px;
     width: 600px;
     border: 1px solid black;
+    display: flex;
+}
+
+.test {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
 }
 
